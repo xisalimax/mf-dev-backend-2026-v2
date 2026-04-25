@@ -20,5 +20,7 @@ namespace mf_dev_backend_2026.Models
         public int? AnoFabricacao { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o ano do modelo!")]
+        [Display(Name = "Ano do Modelo")]
+        public int? AnoModelo { get; set; }
     }
 }
